@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/00. Scenes/Phantom_sena.unity
+- path: Assets/00. Scenes/Hun.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

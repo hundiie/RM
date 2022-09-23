@@ -56,9 +56,18 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\01.Scripts\Sena\PlayerMove.cs" />
-    <Compile Include="Assets\01.Scripts\Sena\PlayerStat.cs" />
     <Compile Include="Assets\01.Scripts\Sena\AttackEnd.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\01. Player\PlayerInput.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\03. Monster\MonsterNav.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\03. Monster\MonsterCreate.cs" />
+    <Compile Include="Assets\01.Scripts\Sena\PlayerMove.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\03. Monster\MonsterData.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\03. Monster\MonsterHealth.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\03. Monster\MonsterStatus.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\01. Player\LPlayerMove.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\02. Camera\CameraMove.cs" />
+    <Compile Include="Assets\01.Scripts\Sena\PlayerStat.cs" />
+    <Compile Include="Assets\01.Scripts\Hun\04. Object\Coin.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
