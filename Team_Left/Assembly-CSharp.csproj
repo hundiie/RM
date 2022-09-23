@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\01.Scripts\Sena\PlayerMove.cs" />
     <Compile Include="Assets\01.Scripts\Sena\PlayerStat.cs" />
+    <Compile Include="Assets\01.Scripts\Sena\AttackEnd.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

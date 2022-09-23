@@ -30,7 +30,7 @@ public class PlayerMove : MonoBehaviour
     {
 
         Move();
-        PlayerAttack();
+       // PlayerAttack();
 
         if ((Horizontal !=0|| (Vertical !=0)))
         {
@@ -44,7 +44,7 @@ public class PlayerMove : MonoBehaviour
 
     void Move()
     {
-       // gameObject.GetComponent<Animator>().SetBool("Move",true);
+        gameObject.GetComponent<Animator>().SetBool("Move",true);
 
         Vector3 move = transform.forward * Input.GetAxisRaw("Vertical") + transform.right * Input.GetAxisRaw("Horizontal");
 
@@ -52,25 +52,6 @@ public class PlayerMove : MonoBehaviour
 
         transform.position += move * speed * Time.deltaTime;
         
-    }
-
-
-    void PlayerAttack()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            gameObject.GetComponent<Animator>().SetBool("Attack", true);
-        }
-            
-        if (Input.GetMouseButtonUp(0))
-            gameObject.GetComponent<Animator>().SetBool("Attack", false);
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-
-        if(gameObject.GetComponent<Animator>().GetBool("Attack"))
-             Destroy(other.gameObject);
     }
 
 }
